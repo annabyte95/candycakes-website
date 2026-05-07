@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CandyCakes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top">
+          <a class="logo" href="index.html">
+            CandyCakes
+            <span class="logo-sub">Studio</span>
+          </a>
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-icon" width="43" height="44">
+              <use href="icons/symbol-defs.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="index.html">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-shop.html">Shop</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-about.html">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-reviews.html">Reviews</a>
+            </li>
+          </ul>
+
+          <div class="nav-contact">
+            <a class="header-link" href="page-contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="container about-container">
+          <div class="about-content">
+            <p class="about-label">Since 2020</p>
+            <h1 class="about-title">About CandyCakes</h1>
+            <p class="about-text-main">
+              We create handcrafted cakes using fresh ingredients and unique
+              designs to make every celebration special.
+            </p>
+            <p class="about-text-secondary">
+              At CandyCakes, we're passionate about baking. Each cake is made
+              with love and attention to detail, ensuring every bite is a
+              delight. Our mission is to create the most beautiful and delicious
+              cakes for your special moments.
+            </p>
+            <ul class="about-list">
+              <li class="about-item">
+                <svg
+                  class="about-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+                Fresh & natural ingredients
+              </li>
+              <li class="about-item">
+                <svg
+                  class="about-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+                Custom-made designs
+              </li>
+              <li class="about-item">
+                <svg
+                  class="about-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-checkmark"></use>
+                </svg>
+                Made with love and care
+              </li>
+            </ul>
+
+            <div class="about-stats">
+              <div class="about-reviews">
+                <svg
+                  class="about-reviews-icon"
+                  aria-hidden="true"
+                  width="32"
+                  height="32"
+                >
+                  <use href="icons/symbol-defs.svg#icon-star-1"></use>
+                </svg>
+                <div class="about-reviews-wrapper">
+                  <p class="about-reviews-title">5-star</p>
+                  <p class="about-reviews-text">reviews</p>
+                </div>
+              </div>
+
+              <div class="about-cakes">
+                <svg
+                  class="about-cakes-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-cake"></use>
+                </svg>
+                <div class="about-cakes-wrapper">
+                  <p class="about-cakes-number">100+</p>
+                  <p class="about-cakes-text">cakes made</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <picture class="about-image">
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                images/about/image1desk@1x.jpg 1x,
+                images/about/image1desk@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                images/about/image2tab@1x.jpg 1x,
+                images/about/image2tab@2x.jpg 2x
+              "
+            />
+            <img
+              src="images/about/image3mob@1x.jpg"
+              alt="Chef decorating a cake"
+              srcset="
+                images/about/image3mob@1x.jpg 1x,
+                images/about/image3mob@2x.jpg 2x
+              "
+              width="633"
+              height="730"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-top">
+          <a class="logo footer-logo" href="index.html">
+            CandyCakes
+            <span class="logo-sub">Studio</span>
+          </a>
+
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-shop.html">Shop</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-about.html">About</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-reviews.html">Reviews</a>
+            </li>
+          </ul>
+
+          <address class="footer-adrs">
+            <ul class="footer-adrs-list">
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <a class="footer-adrs-link" href="tel:+46735124890">
+                  +46 73 512 48 90
+                </a>
+              </li>
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-email"></use>
+                </svg>
+                <a
+                  class="footer-adrs-link"
+                  href="mailto:hello@candycakes.studio"
+                >
+                  hello@candycakes.studio
+                </a>
+              </li>
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-location"></use>
+                </svg>
+                <a
+                  class="footer-adrs-link"
+                  href="https://maps.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Stockholm, Sweden
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.instagram.com/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.tiktok.com/"
+                aria-label="Tiktok"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-tiktok"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.pinterest.com/"
+                aria-label="Pinterest"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-pinterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="footer-text">© 2026 CandyCakes. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

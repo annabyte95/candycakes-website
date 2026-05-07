@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CandyCakes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-top">
+          <a class="logo" href="index.html">
+            CandyCakes
+            <span class="logo-sub">Studio</span>
+          </a>
+          <button class="mobile-menu-btn" type="button">
+            <svg class="mobile-menu-icon" width="43" height="44">
+              <use href="icons/symbol-defs.svg#icon-burger-menu"></use>
+            </svg>
+          </button>
+        </div>
+        <nav class="header-nav">
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="index.html">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-shop.html">Shop</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-about.html">About</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="page-reviews.html">Reviews</a>
+            </li>
+          </ul>
+
+          <div class="nav-contact">
+            <a class="header-link" href="page-contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="shop">
+        <div class="container">
+          <h1 class="shop-title">Our Cakes</h1>
+          <p class="shop-text">
+            Discover our delicious and beautifully crafted cake for every
+            occasion.
+          </p>
+
+          <ul class="shop-list">
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/chocolate-berry-cake.jpg"
+                alt="Chocolate berry cake with fresh berries"
+                srcset="
+                  images/shop/chocolate-berry-cake.jpg    1x,
+                  images/shop/chocolate-berry-cake@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Chocolate Berry Cake</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$30</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Birthday</li>
+                    <li class="shop-tag">Party</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/wedding-cake.jpg"
+                alt="White wedding cake with floral decoration"
+                srcset="
+                  images/shop/wedding-cake.jpg    1x,
+                  images/shop/wedding-cake@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Wedding Cake</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$100</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Wedding</li>
+                    <li class="shop-tag">Elegant</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/red-velvet-cake.jpg"
+                alt="Red velvet layered cake with cream frosting"
+                srcset="
+                  images/shop/red-velvet-cake.jpg    1x,
+                  images/shop/red-velvet-cake@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Classic Red Velvet</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$35</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Premium</li>
+                    <li class="shop-tag">Chef’s</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/pink-cupcake.jpg"
+                alt="Pink frosted cupcake"
+                srcset="
+                  images/shop/pink-cupcake.jpg    1x,
+                  images/shop/pink-cupcake@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Pink Cupcake</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$8</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Kids</li>
+                    <li class="shop-tag">Birthday</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/lemon-tart.jpg"
+                alt="Lemon tart topped with whipped cream and berries"
+                srcset="
+                  images/shop/lemon-tart.jpg    1x,
+                  images/shop/lemon-tart@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Lemon Tart</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$9</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Summer</li>
+                    <li class="shop-tag">Fruity</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+            <li class="shop-item">
+              <img
+                class="shop-img"
+                src="images/shop/cake-pops.jpg"
+                alt="Chocolate cake pops with sprinkles"
+                srcset="
+                  images/shop/cake-pops.jpg    1x,
+                  images/shop/cake-pops@2x.jpg 2x
+                "
+                width="288"
+                height="216"
+              />
+              <div class="shop-wrapper">
+                <h2 class="shop-subtitle">Cake Pops</h2>
+                <p class="shop-price">
+                  From
+                  <strong>$12</strong>
+                </p>
+                <div class="shop-info">
+                  <ul class="shop-tags">
+                    <li class="shop-tag">Chocolate</li>
+                    <li class="shop-tag">Treat</li>
+                  </ul>
+                  <button class="shop-btn" type="button">Order</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-top">
+          <a class="logo footer-logo" href="index.html">
+            CandyCakes
+            <span class="logo-sub">Studio</span>
+          </a>
+
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="index.html">Home</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-shop.html">Shop</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-about.html">About</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="page-reviews.html">Reviews</a>
+            </li>
+          </ul>
+
+          <address class="footer-adrs">
+            <ul class="footer-adrs-list">
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                <a class="footer-adrs-link" href="tel:+46735124890">
+                  +46 73 512 48 90
+                </a>
+              </li>
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-email"></use>
+                </svg>
+                <a
+                  class="footer-adrs-link"
+                  href="mailto:hello@candycakes.studio"
+                >
+                  hello@candycakes.studio
+                </a>
+              </li>
+              <li class="footer-adrs-item">
+                <svg
+                  class="footer-adrs-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-location"></use>
+                </svg>
+                <a
+                  class="footer-adrs-link"
+                  href="https://maps.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Stockholm, Sweden
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="footer-soc-list">
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.instagram.com/"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.tiktok.com/"
+                aria-label="Tiktok"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-tiktok"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc-item">
+              <a
+                class="footer-soc-link"
+                href="https://www.pinterest.com/"
+                aria-label="Pinterest"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg
+                  class="footer-soc-icon"
+                  aria-hidden="true"
+                  width="24"
+                  height="24"
+                >
+                  <use href="icons/symbol-defs.svg#icon-pinterest"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="footer-text">© 2026 CandyCakes. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
